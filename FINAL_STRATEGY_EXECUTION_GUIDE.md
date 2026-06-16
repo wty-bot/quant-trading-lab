@@ -197,6 +197,28 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 
 当前旧策略文件 `rq_qvmr_skeleton.py` 仍含动态 RQData 调用，只能作为逻辑参考，不能作为最终策略直接提交。
 
+正式实现前必须锁定的 API：
+
+```text
+load_manifest() -> dict
+get_rebalance_dates(start, end) -> list[str]
+get_instrument_snapshot(date) -> DataFrame
+get_status_snapshot(date) -> DataFrame[order_book_id, is_st, is_suspended]
+get_factor_snapshot(date) -> DataFrame indexed by order_book_id
+get_price_window(order_book_ids, end_date, lookback) -> DataFrame
+get_industry_snapshot(date) -> DataFrame[order_book_id, sector_code, sector_code_name, industry_code, industry_name]
+```
+
+下一步顺序：
+
+1. 先验证 RQAlpha Plus 策略运行环境能读取本地数据文件。
+2. 再实现本地数据加载模块。
+3. 再实现 baseline 策略。
+4. 先跑近 5 年，再跑 Max。
+5. 回测结果出来后，再做行业暴露、市值暴露、换手率、模块相关矩阵和敏感性测试。
+
+在第一组回测结果出来前，不再继续扩写理论文档。
+
 ## 7. 作业产出怎么做
 
 你最终需要提交的不是代码本身，而是一套“交易系统说明 + 截图 + 结果分析”。

@@ -19,22 +19,31 @@
 
 ## 2. 数据状态
 
-本地数据主目录：
+正式回测数据目录：
+
+```text
+D:\RiceQuantData\backtest_dataset
+D:\RiceQuantData\backtest_dataset\manifest.json
+```
+
+策略开发和回测应优先读取这个目录。该目录已经把分散在 bundle 和 project_cache 的正式数据复制到一起，并通过 `manifest.json` 记录用途、覆盖范围、源路径、文件大小和 SHA256 校验值。
+
+原始数据来源目录：
 
 ```text
 D:\RiceQuantData\bundle_sample\bundle\bundle
 D:\RiceQuantData\project_cache
 ```
 
-行情主干来自本地 bundle：
+正式数据目录包含以下行情主干：
 
 | 数据 | 覆盖范围 | 文件 |
 |---|---|---|
-| 股票日线价格、成交量、成交额 | `2005-01-04` 至 `2026-06-16`，5509 只 | `stocks.h5` |
-| 指数日线价格 | 已含 `000906.XSHG` | `indexes.h5` |
-| 交易日历 | 已有 | `trading_dates.npy` |
+| 股票日线价格、成交量、成交额 | `2005-01-04` 至 `2026-06-16`，5509 只 | `D:\RiceQuantData\backtest_dataset\stocks.h5` |
+| 指数日线价格 | 已含 `000906.XSHG` | `D:\RiceQuantData\backtest_dataset\indexes.h5` |
+| 交易日历 | 已有 | `D:\RiceQuantData\backtest_dataset\trading_dates.npy` |
 
-策略缓存来自 `D:\RiceQuantData\project_cache`：
+正式数据目录还包含以下策略缓存：
 
 | 数据 | 覆盖范围 | 文件 |
 |---|---|---|
@@ -46,6 +55,14 @@ D:\RiceQuantData\project_cache
 | 拆股/送转 | `2005-01-04` 至 `2026-06-16` | `split_pre5y_all_a.pkl`、`split_5y_all_a.pkl` |
 | 复权因子 | `2005-01-04` 至 `2026-06-16` | `ex_factor_pre5y_all_a.pkl`、`ex_factor_5y_all_a.pkl` |
 | 无风险利率 | `2005-01-04` 至 `2026-06-16` | `yield_curve_pre5y.pkl`、`yield_curve_5y.pkl` |
+
+数据整理验证结果：
+
+- `manifest.json` 共登记 20 个文件。
+- 所有文件存在，SHA256 校验通过。
+- `stocks.h5` 可读，含 5509 个股票键。
+- `indexes.h5` 可读，确认包含 `000906.XSHG`。
+- 因子、基础信息、ST/停牌缓存均可反序列化读取。
 
 已缓存财务/估值因子：
 
@@ -163,8 +180,9 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 
 下一步代码工作：
 
-1. 写一个本地数据加载模块，统一读取：
+1. 写一个本地数据加载模块，统一读取 `D:\RiceQuantData\backtest_dataset\manifest.json`，再根据 manifest 定位：
    - `stocks.h5`
+   - `indexes.h5`
    - 历史基础信息快照
    - ST / 停牌缓存
    - 财务/估值因子缓存

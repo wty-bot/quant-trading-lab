@@ -197,6 +197,8 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 
 你最终需要提交的不是代码本身，而是一套“交易系统说明 + 截图 + 结果分析”。
 
+权限口径必须写清楚：当前账号开通的是 RQSDK 教育版，包含 RQData 金融数据 API 与 RQAlpha Plus 基础回测功能，不是米筐网页端模拟交易页面。因此截图和结果证据应来自 RQAlpha Plus 本地回测输出、命令/配置截图、策略代码截图，以及用回测 CSV / pickle 生成的本地图表。
+
 建议报告结构：
 
 1. 摘要
@@ -212,7 +214,7 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 4. 模拟交易设置
    - 股票池过滤规则。
    - 持仓数量、调仓频率、成本、滑点、基准。
-   - 附交易系统设置截图。
+   - 附 RQAlpha Plus 回测命令、配置文件或参数表截图。
 5. 回测结果
    - 分别报告近 5 年和 Max。
    - 展示收益曲线、持仓分配、绩效统计、交易统计。
@@ -227,17 +229,28 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 必备截图清单：
 
 - 排名系统分支或因子代码截图。
-- 模拟交易总结页面。
-- 交易系统设置页面或配置截图。
-- 持仓分配图。
-- 近 5 年绩效统计。
-- Max 绩效统计。
-- 敏感性测试结果表。
+- RQAlpha Plus 本地回测 summary 截图。
+- RQAlpha Plus 回测命令、配置文件或参数表截图。
+- 持仓分配图，来自 `stock_positions.csv` 或 `result.pkl`。
+- 近 5 年绩效统计，来自 `summary.csv` / `report.xlsx` / `result.pkl`。
+- Max 绩效统计，来自 `summary.csv` / `report.xlsx` / `result.pkl`。
+- 净值曲线和回撤曲线，来自 `portfolio.csv` 或 `result.pkl`。
+- 敏感性测试结果表，来自多组回测 summary 汇总。
+
+作业原文提到“模拟交易总结页面、交易系统设置、持仓分配图表、交易表现统计数据”。在本项目中对应关系如下：
+
+| 作业截图要求 | 本项目对应产物 |
+|---|---|
+| 模拟交易总结页面 | RQAlpha Plus `summary.csv` / `report.xlsx` / 本地 summary 图表 |
+| 交易系统设置 | 回测命令、配置文件、参数表截图 |
+| 持仓分配图表 | 由 `stock_positions.csv` 生成的持仓权重或行业分布图 |
+| 交易表现统计数据 | `summary.csv`、`portfolio.csv`、`trades.csv`、本地绩效统计图 |
 
 呈现形式：
 
 - 主报告建议用 Word / PDF。
 - 附录放参数表、因子说明、敏感性测试表。
+- 不要声称使用了米筐网页模拟交易页面。
 - 代码和缓存路径不需要全部放进正文，只在方法部分说明“使用米筐 RQSDK/RQAlpha Plus，本地静态缓存数据完成回测”。
 
 ## 8. 当前文件状态

@@ -10,7 +10,7 @@
 
 - 标的：A 股普通股票。
 - 回测区间：Max 使用 `2005-01-31` 至 `2026-06-16`；近 5 年使用 `2021-06-30` 至 `2026-06-16`。
-- 调仓频率：月度，使用每月最后一个可交易日。
+- 调仓频率：月度，使用缓存中记录的月末调仓日；因子快照、基础信息快照、ST/停牌快照与调仓日一一对应。
 - 策略方向：质量 + 价值 + 动量 + 风险惩罚的多因子纯多头组合。
 - 持仓数量：主版本持有 30 只股票；敏感性测试使用 25 / 50 只。
 - 基准：`000906.XSHG` 中证 800。
@@ -85,7 +85,7 @@ ocf_to_debt_ttm
    - `type == CS`
    - `status == Active`
    - 已上市且未退市
-   - 上市满 180 个自然日
+   - 上市满 273 个交易日
 2. 风险状态过滤：
    - 剔除 ST / *ST
    - 剔除当日停牌
@@ -107,18 +107,20 @@ ocf_to_debt_ttm
 - `return_on_equity_ttm`
 - `return_on_asset_ttm`
 - `gross_profit_margin_ttm`
-- 可选增强：`ocf_to_debt_ttm`
+- `ocf_to_debt_ttm`
 
 价值 Value，权重 25%：
 
 - `book_to_market_ratio_ttm`，越高越好
 - `pe_ratio_ttm`，越低越好；负值剔除或置空
-- `pb_ratio_ttm`，越低越好；负值剔除或置空
+
+说明：`pb_ratio_ttm` 与 `book_to_market_ratio_ttm` 本质重复，不进入 baseline 价值模块。当 PE 因亏损或异常被置空时，价值模块会退化为 B/P 单因子，报告中需承认这一局限。
 
 动量 Momentum，权重 25%：
 
-- 使用本地价格计算 120 日收益率。
-- 若数据允许，使用 12-1 月动量作为增强版本，即跳过最近 1 个月，计算前 12 个月收益。
+- baseline 使用 12-1 月动量，即跳过最近 1 个月，计算前 12 个月收益。
+- 公式为 `close[t-21] / close[t-252] - 1`。
+- 若股票价格历史不足 273 个交易日，或 `t-252` 距上市首个交易日不足 60 个交易日，则动量置空。
 
 风险 Risk，权重 15%：
 
@@ -144,7 +146,8 @@ score = 0.35 * quality + 0.25 * value + 0.25 * momentum + 0.15 * low_risk
 - 每月最后一个交易日调仓。
 - 买入综合分最高的 30 只股票。
 - 等权配置，目标仓位合计 98%，保留 2% 现金缓冲。
-- 若持仓股票跌出前 60 名、变 ST、停牌无法调仓、基础信息异常，则在可交易时卖出。
+- 若持仓股票跌出前 60 名、变 ST、基础信息异常，则在可交易时卖出。
+- 若持仓股票调仓日停牌，不发出卖出委托，保持原持仓；复牌后在下一次可交易调仓检查点重新排名，不合格则卖出。
 - 不使用杠杆，不做空，不做行业或指数对冲。
 
 敏感性测试：
@@ -180,6 +183,7 @@ D:\Miniconda3\envs\ricequant-final\Scripts\rqalpha-plus.exe
 
 下一步代码工作：
 
+0. 先写一个 RQAlpha Plus 文件 I/O 验证脚本，确认策略运行环境能读取 `D:\RiceQuantData\backtest_dataset\manifest.json`、`stocks.h5` 和核心 pickle 缓存。
 1. 写一个本地数据加载模块，统一读取 `D:\RiceQuantData\backtest_dataset\manifest.json`，再根据 manifest 定位：
    - `stocks.h5`
    - `indexes.h5`

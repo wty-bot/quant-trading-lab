@@ -1,0 +1,228 @@
+{
+  "dataset_name": "ricequant_a_share_backtest_dataset",
+  "created_at": "2026-06-16",
+  "dataset_dir": "D:\\RiceQuantData\\backtest_dataset",
+  "source_bundle_dir": "D:\\RiceQuantData\\bundle_sample\\bundle\\bundle",
+  "source_cache_dir": "D:\\RiceQuantData\\project_cache",
+  "coverage": {
+    "price_start": "2005-01-04",
+    "price_end": "2026-06-16",
+    "monthly_rebalance_start": "2005-01-31",
+    "monthly_rebalance_end": "2026-06-16",
+    "rebalance_date_count": 259,
+    "stock_count_price_file": 5509,
+    "factor_rows": 796489
+  },
+  "factors": [
+    "market_cap",
+    "pe_ratio_ttm",
+    "pb_ratio_ttm",
+    "book_to_market_ratio_ttm",
+    "return_on_equity_ttm",
+    "return_on_asset_ttm",
+    "gross_profit_margin_ttm",
+    "ocf_to_debt_ttm"
+  ],
+  "items": [
+    {
+      "key": "prices",
+      "description": "??????????????",
+      "coverage": "2005-01-04 to 2026-06-16",
+      "file": "stocks.h5",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\stocks.h5",
+      "source_path": "D:\\RiceQuantData\\bundle_sample\\bundle\\bundle\\stocks.h5",
+      "bytes": 1395888912,
+      "sha256": "af023b5c059e63ea43b397baabe52ecc6e8b5d99b90ed3947026727d6066a26c"
+    },
+    {
+      "key": "benchmark",
+      "description": "???????? 000906.XSHG",
+      "coverage": "2005-01-04 to 2026-06-16",
+      "file": "indexes.h5",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\indexes.h5",
+      "source_path": "D:\\RiceQuantData\\bundle_sample\\bundle\\bundle\\indexes.h5",
+      "bytes": 1395416528,
+      "sha256": "71713bdc192cf5c02629b5616c20e8c4c6a559c1cbffed89377aa9a153c5249c"
+    },
+    {
+      "key": "trading_calendar",
+      "description": "????",
+      "coverage": "bundle available",
+      "file": "trading_dates.npy",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\trading_dates.npy",
+      "source_path": "D:\\RiceQuantData\\bundle_sample\\bundle\\bundle\\trading_dates.npy",
+      "bytes": 22476,
+      "sha256": "254698ec8004136ba21f155bb43258f40242c2228fee8d8d04a7cee7e973d85f"
+    },
+    {
+      "key": "rebalance_dates_pre5y",
+      "description": "2005-2021 ?????",
+      "coverage": "2005-01-31 to 2021-06-29",
+      "file": "rebalance_dates_pre5y.csv",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\rebalance_dates_pre5y.csv",
+      "source_path": "D:\\RiceQuantData\\project_cache\\rebalance_dates_pre5y.csv",
+      "bytes": 2392,
+      "sha256": "864520ec682b1534a17eb9d2618c9f24497d05b1c428d89302bd89e3484b0fd6"
+    },
+    {
+      "key": "rebalance_dates_5y",
+      "description": "? 5 ??????",
+      "coverage": "2021-06-30 to 2026-06-16",
+      "file": "rebalance_dates_5y.csv",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\rebalance_dates_5y.csv",
+      "source_path": "D:\\RiceQuantData\\project_cache\\rebalance_dates_5y.csv",
+      "bytes": 748,
+      "sha256": "b52b21bba6d7ccf39ada48357141a5cf5dca1b1aeb8b5e9f96f590cc0d19bdf9"
+    },
+    {
+      "key": "instruments_monthly",
+      "description": "?? A ?????????",
+      "coverage": "2005-01-31 to 2026-06-16",
+      "file": "all_instruments_monthly_full_history.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\all_instruments_monthly_full_history.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\all_instruments_monthly_full_history.pkl",
+      "bytes": 100486081,
+      "sha256": "83891b3ecc950464deff2387ddeb3611e46f49128dfbd295db28366fc6fc369e"
+    },
+    {
+      "key": "instruments_monthly_summary",
+      "description": "??????????",
+      "coverage": "2005-01-31 to 2026-06-16",
+      "file": "all_instruments_monthly_full_history_summary.json",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\all_instruments_monthly_full_history_summary.json",
+      "source_path": "D:\\RiceQuantData\\project_cache\\all_instruments_monthly_full_history_summary.json",
+      "bytes": 188435,
+      "sha256": "47b0d2a6a4ed84d87b28ee48b98624edfedb32e22e0c563a78840a04a940b2dd"
+    },
+    {
+      "key": "status_pre5y",
+      "description": "?? ST/??????",
+      "coverage": "2005-01-31 to 2021-06-29",
+      "file": "aux_status_pre5y_full_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\aux_status_pre5y_full_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\aux_status_pre5y_full_a.pkl",
+      "bytes": 13302729,
+      "sha256": "43cde84597e16181318c2818d467cf2836e2d6089209cee675bd61131991b2af"
+    },
+    {
+      "key": "status_5y",
+      "description": "? 5 ? ST/??????",
+      "coverage": "2021-06-30 to 2026-06-16",
+      "file": "aux_status_5y_full_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\aux_status_5y_full_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\aux_status_5y_full_a.pkl",
+      "bytes": 4175034,
+      "sha256": "c30c7f91db3a5e1562a89e470edc55575ad801fd67476d09dbb7bc50ee96ea0b"
+    },
+    {
+      "key": "factors_monthly",
+      "description": "??/????????",
+      "coverage": "2005-01-31 to 2026-06-16",
+      "file": "factor_monthly_full_history.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\factor_monthly_full_history.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\factor_monthly_full_history.pkl",
+      "bytes": 61386112,
+      "sha256": "41c8a278455aefc492ba00ce58602e8f1122cc942d03ff6f42e3b054bd3d2f92"
+    },
+    {
+      "key": "factors_monthly_summary",
+      "description": "??/????????",
+      "coverage": "2005-01-31 to 2026-06-16",
+      "file": "factor_monthly_full_history_summary.json",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\factor_monthly_full_history_summary.json",
+      "source_path": "D:\\RiceQuantData\\project_cache\\factor_monthly_full_history_summary.json",
+      "bytes": 50552,
+      "sha256": "230dfdee0591cb86b56769c928de8ceb232ef720e72dde9f3387dd85c96a618a"
+    },
+    {
+      "key": "dividend_pre5y",
+      "description": "??????",
+      "coverage": "2005-01-04 to 2021-06-15",
+      "file": "dividend_pre5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\dividend_pre5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\dividend_pre5y_all_a.pkl",
+      "bytes": 1817089,
+      "sha256": "38cd76e29938296a4e3577337585e4658217d0b2465ba008503bc4c99867fccd"
+    },
+    {
+      "key": "dividend_5y",
+      "description": "? 5 ?????",
+      "coverage": "2021-06-16 to 2026-06-16",
+      "file": "dividend_5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\dividend_5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\dividend_5y_all_a.pkl",
+      "bytes": 1276245,
+      "sha256": "85606e2763ce1703b3c4a178b40fc65d393eef9b33d7c2a1c0f4832e53eaf6b8"
+    },
+    {
+      "key": "split_pre5y",
+      "description": "????/????",
+      "coverage": "2005-01-04 to 2021-06-15",
+      "file": "split_pre5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\split_pre5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\split_pre5y_all_a.pkl",
+      "bytes": 447033,
+      "sha256": "fe67c65a397ff924ec2e89a990d6ec8170f2d3d03455cd84dd039ae170703b66"
+    },
+    {
+      "key": "split_5y",
+      "description": "? 5 ???/????",
+      "coverage": "2021-06-16 to 2026-06-16",
+      "file": "split_5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\split_5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\split_5y_all_a.pkl",
+      "bytes": 116540,
+      "sha256": "20910a83c1a1b9a8f9793f2044f93e7b732c6e076b1a0faf1745facae3f2df5e"
+    },
+    {
+      "key": "ex_factor_pre5y",
+      "description": "????????",
+      "coverage": "2005-01-04 to 2021-06-15",
+      "file": "ex_factor_pre5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\ex_factor_pre5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\ex_factor_pre5y_all_a.pkl",
+      "bytes": 1659849,
+      "sha256": "440c4e8b1fd03bea90ae51c121d3b658172b5fc439ce92b89773fcfe510b4491"
+    },
+    {
+      "key": "ex_factor_5y",
+      "description": "? 5 ???????",
+      "coverage": "2021-06-16 to 2026-06-16",
+      "file": "ex_factor_5y_all_a.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\ex_factor_5y_all_a.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\ex_factor_5y_all_a.pkl",
+      "bytes": 1074719,
+      "sha256": "a2aa7d08bf3188c8b2bf4f6f15b53a4e7e92ecf28091557b550816fbc0521572"
+    },
+    {
+      "key": "yield_curve_pre5y",
+      "description": "???????",
+      "coverage": "2005-01-04 to 2021-06-15",
+      "file": "yield_curve_pre5y.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\yield_curve_pre5y.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\yield_curve_pre5y.pkl",
+      "bytes": 725125,
+      "sha256": "6cb679bcc71c3d595fdc54027fe19945ca5cb624c1e4fb7d6462b967c12395b1"
+    },
+    {
+      "key": "yield_curve_5y",
+      "description": "? 5 ??????",
+      "coverage": "2021-06-16 to 2026-06-16",
+      "file": "yield_curve_5y.pkl",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\yield_curve_5y.pkl",
+      "source_path": "D:\\RiceQuantData\\project_cache\\yield_curve_5y.pkl",
+      "bytes": 220885,
+      "sha256": "5d894203a0b3d1a541208d4cf0be73ac94c251bd954812f71d40b2e7f72e4c14"
+    },
+    {
+      "key": "dataset_readme",
+      "description": "??????",
+      "coverage": "n/a",
+      "file": "README.md",
+      "absolute_path": "D:\\RiceQuantData\\backtest_dataset\\README.md",
+      "source_path": "generated",
+      "bytes": 420,
+      "sha256": "05018f4bf87cf0c7bfddfc3908bb8e22f5066f21bd2ef6c361e488cb0049b4aa"
+    }
+  ]
+}

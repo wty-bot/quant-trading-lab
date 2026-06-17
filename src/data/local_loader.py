@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import pickle
 from dataclasses import dataclass
 from functools import lru_cache
@@ -12,7 +13,8 @@ import numpy as np
 import pandas as pd
 
 
-DATASET_DIR = Path(r"D:\RiceQuantData\backtest_dataset")
+ROOT = Path(__file__).resolve().parents[2]
+DATASET_DIR = Path(os.environ.get("RQ_BACKTEST_DATASET_DIR", ROOT / "data" / "backtest_dataset"))
 EXPECTED_FACTORS = [
     "market_cap",
     "pe_ratio_ttm",

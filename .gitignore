@@ -5,6 +5,11 @@ __pycache__/
 *.pkl
 *.h5
 *.npy
+!data/
+!data/backtest_dataset/
+!data/backtest_dataset/*.pkl
+!data/backtest_dataset/*.h5
+!data/backtest_dataset/*.npy
 reports/cache/
 reports/local_backtests/
 output/

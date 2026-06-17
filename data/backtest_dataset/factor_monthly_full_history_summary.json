@@ -1,0 +1,2886 @@
+{
+  "stock_count": 5509,
+  "date_count": 259,
+  "first_date": "2005-01-31",
+  "last_date": "2026-06-16",
+  "factors": [
+    "market_cap",
+    "pe_ratio_ttm",
+    "pb_ratio_ttm",
+    "book_to_market_ratio_ttm",
+    "return_on_equity_ttm",
+    "return_on_asset_ttm",
+    "gross_profit_margin_ttm",
+    "ocf_to_debt_ttm"
+  ],
+  "batches": [
+    {
+      "i": 1,
+      "date": "2005-01-31",
+      "status": "ok",
+      "shape": [
+        1355,
+        8
+      ],
+      "non_null_rows": 1355,
+      "seconds": 7.289
+    },
+    {
+      "i": 2,
+      "date": "2005-02-28",
+      "status": "ok",
+      "shape": [
+        1356,
+        8
+      ],
+      "non_null_rows": 1356,
+      "seconds": 7.872
+    },
+    {
+      "i": 3,
+      "date": "2005-03-31",
+      "status": "ok",
+      "shape": [
+        1357,
+        8
+      ],
+      "non_null_rows": 1357,
+      "seconds": 4.024
+    },
+    {
+      "i": 4,
+      "date": "2005-04-29",
+      "status": "ok",
+      "shape": [
+        1360,
+        8
+      ],
+      "non_null_rows": 1360,
+      "seconds": 6.349
+    },
+    {
+      "i": 5,
+      "date": "2005-05-31",
+      "status": "ok",
+      "shape": [
+        1366,
+        8
+      ],
+      "non_null_rows": 1366,
+      "seconds": 5.119
+    },
+    {
+      "i": 6,
+      "date": "2005-06-30",
+      "status": "ok",
+      "shape": [
+        1369,
+        8
+      ],
+      "non_null_rows": 1369,
+      "seconds": 4.161
+    },
+    {
+      "i": 7,
+      "date": "2005-07-29",
+      "status": "ok",
+      "shape": [
+        1368,
+        8
+      ],
+      "non_null_rows": 1368,
+      "seconds": 5.756
+    },
+    {
+      "i": 8,
+      "date": "2005-08-31",
+      "status": "ok",
+      "shape": [
+        1367,
+        8
+      ],
+      "non_null_rows": 1367,
+      "seconds": 5.348
+    },
+    {
+      "i": 9,
+      "date": "2005-09-30",
+      "status": "ok",
+      "shape": [
+        1360,
+        8
+      ],
+      "non_null_rows": 1360,
+      "seconds": 6.787
+    },
+    {
+      "i": 10,
+      "date": "2005-10-31",
+      "status": "ok",
+      "shape": [
+        1360,
+        8
+      ],
+      "non_null_rows": 1360,
+      "seconds": 7.385
+    },
+    {
+      "i": 11,
+      "date": "2005-11-30",
+      "status": "ok",
+      "shape": [
+        1360,
+        8
+      ],
+      "non_null_rows": 1360,
+      "seconds": 6.965
+    },
+    {
+      "i": 12,
+      "date": "2005-12-30",
+      "status": "ok",
+      "shape": [
+        1360,
+        8
+      ],
+      "non_null_rows": 1360,
+      "seconds": 7.138
+    },
+    {
+      "i": 13,
+      "date": "2006-01-25",
+      "status": "ok",
+      "shape": [
+        1357,
+        8
+      ],
+      "non_null_rows": 1357,
+      "seconds": 7.392
+    },
+    {
+      "i": 14,
+      "date": "2006-02-28",
+      "status": "ok",
+      "shape": [
+        1356,
+        8
+      ],
+      "non_null_rows": 1356,
+      "seconds": 9.033
+    },
+    {
+      "i": 15,
+      "date": "2006-03-31",
+      "status": "ok",
+      "shape": [
+        1355,
+        8
+      ],
+      "non_null_rows": 1355,
+      "seconds": 9.391
+    },
+    {
+      "i": 16,
+      "date": "2006-04-28",
+      "status": "ok",
+      "shape": [
+        1351,
+        8
+      ],
+      "non_null_rows": 1351,
+      "seconds": 9.376
+    },
+    {
+      "i": 17,
+      "date": "2006-05-31",
+      "status": "ok",
+      "shape": [
+        1351,
+        8
+      ],
+      "non_null_rows": 1351,
+      "seconds": 7.635
+    },
+    {
+      "i": 18,
+      "date": "2006-06-30",
+      "status": "ok",
+      "shape": [
+        1354,
+        8
+      ],
+      "non_null_rows": 1354,
+      "seconds": 7.043
+    },
+    {
+      "i": 19,
+      "date": "2006-07-31",
+      "status": "ok",
+      "shape": [
+        1358,
+        8
+      ],
+      "non_null_rows": 1358,
+      "seconds": 5.723
+    },
+    {
+      "i": 20,
+      "date": "2006-08-31",
+      "status": "ok",
+      "shape": [
+        1371,
+        8
+      ],
+      "non_null_rows": 1371,
+      "seconds": 10.525
+    },
+    {
+      "i": 21,
+      "date": "2006-09-29",
+      "status": "ok",
+      "shape": [
+        1375,
+        8
+      ],
+      "non_null_rows": 1375,
+      "seconds": 8.253
+    },
+    {
+      "i": 22,
+      "date": "2006-10-31",
+      "status": "ok",
+      "shape": [
+        1385,
+        8
+      ],
+      "non_null_rows": 1385,
+      "seconds": 9.917
+    },
+    {
+      "i": 23,
+      "date": "2006-11-30",
+      "status": "ok",
+      "shape": [
+        1397,
+        8
+      ],
+      "non_null_rows": 1397,
+      "seconds": 10.778
+    },
+    {
+      "i": 24,
+      "date": "2006-12-29",
+      "status": "ok",
+      "shape": [
+        1413,
+        8
+      ],
+      "non_null_rows": 1413,
+      "seconds": 10.434
+    },
+    {
+      "i": 25,
+      "date": "2007-01-31",
+      "status": "ok",
+      "shape": [
+        1424,
+        8
+      ],
+      "non_null_rows": 1424,
+      "seconds": 9.127
+    },
+    {
+      "i": 26,
+      "date": "2007-02-28",
+      "status": "ok",
+      "shape": [
+        1432,
+        8
+      ],
+      "non_null_rows": 1432,
+      "seconds": 7.357
+    },
+    {
+      "i": 27,
+      "date": "2007-03-30",
+      "status": "ok",
+      "shape": [
+        1440,
+        8
+      ],
+      "non_null_rows": 1440,
+      "seconds": 7.408
+    },
+    {
+      "i": 28,
+      "date": "2007-04-30",
+      "status": "ok",
+      "shape": [
+        1451,
+        8
+      ],
+      "non_null_rows": 1451,
+      "seconds": 6.832
+    },
+    {
+      "i": 29,
+      "date": "2007-05-31",
+      "status": "ok",
+      "shape": [
+        1453,
+        8
+      ],
+      "non_null_rows": 1453,
+      "seconds": 9.265
+    },
+    {
+      "i": 30,
+      "date": "2007-06-29",
+      "status": "ok",
+      "shape": [
+        1456,
+        8
+      ],
+      "non_null_rows": 1456,
+      "seconds": 8.745
+    },
+    {
+      "i": 31,
+      "date": "2007-07-31",
+      "status": "ok",
+      "shape": [
+        1462,
+        8
+      ],
+      "non_null_rows": 1462,
+      "seconds": 11.179
+    },
+    {
+      "i": 32,
+      "date": "2007-08-31",
+      "status": "ok",
+      "shape": [
+        1483,
+        8
+      ],
+      "non_null_rows": 1483,
+      "seconds": 8.391
+    },
+    {
+      "i": 33,
+      "date": "2007-09-28",
+      "status": "ok",
+      "shape": [
+        1496,
+        8
+      ],
+      "non_null_rows": 1496,
+      "seconds": 5.547
+    },
+    {
+      "i": 34,
+      "date": "2007-10-31",
+      "status": "ok",
+      "shape": [
+        1499,
+        8
+      ],
+      "non_null_rows": 1499,
+      "seconds": 7.013
+    },
+    {
+      "i": 35,
+      "date": "2007-11-30",
+      "status": "ok",
+      "shape": [
+        1511,
+        8
+      ],
+      "non_null_rows": 1511,
+      "seconds": 7.732
+    },
+    {
+      "i": 36,
+      "date": "2007-12-28",
+      "status": "ok",
+      "shape": [
+        1529,
+        8
+      ],
+      "non_null_rows": 1529,
+      "seconds": 5.484
+    },
+    {
+      "i": 37,
+      "date": "2008-01-31",
+      "status": "ok",
+      "shape": [
+        1537,
+        8
+      ],
+      "non_null_rows": 1537,
+      "seconds": 4.861
+    },
+    {
+      "i": 38,
+      "date": "2008-02-29",
+      "status": "ok",
+      "shape": [
+        1547,
+        8
+      ],
+      "non_null_rows": 1547,
+      "seconds": 4.276
+    },
+    {
+      "i": 39,
+      "date": "2008-03-31",
+      "status": "ok",
+      "shape": [
+        1550,
+        8
+      ],
+      "non_null_rows": 1550,
+      "seconds": 5.033
+    },
+    {
+      "i": 40,
+      "date": "2008-04-30",
+      "status": "ok",
+      "shape": [
+        1555,
+        8
+      ],
+      "non_null_rows": 1555,
+      "seconds": 5.866
+    },
+    {
+      "i": 41,
+      "date": "2008-05-30",
+      "status": "ok",
+      "shape": [
+        1574,
+        8
+      ],
+      "non_null_rows": 1574,
+      "seconds": 4.532
+    },
+    {
+      "i": 42,
+      "date": "2008-06-30",
+      "status": "ok",
+      "shape": [
+        1586,
+        8
+      ],
+      "non_null_rows": 1586,
+      "seconds": 5.816
+    },
+    {
+      "i": 43,
+      "date": "2008-07-31",
+      "status": "ok",
+      "shape": [
+        1593,
+        8
+      ],
+      "non_null_rows": 1593,
+      "seconds": 9.305
+    },
+    {
+      "i": 44,
+      "date": "2008-08-29",
+      "status": "ok",
+      "shape": [
+        1599,
+        8
+      ],
+      "non_null_rows": 1599,
+      "seconds": 8.856
+    },
+    {
+      "i": 45,
+      "date": "2008-09-26",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 7.491
+    },
+    {
+      "i": 46,
+      "date": "2008-10-31",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 6.801
+    },
+    {
+      "i": 47,
+      "date": "2008-11-28",
+      "status": "ok",
+      "shape": [
+        1603,
+        8
+      ],
+      "non_null_rows": 1603,
+      "seconds": 7.045
+    },
+    {
+      "i": 48,
+      "date": "2008-12-31",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 10.629
+    },
+    {
+      "i": 49,
+      "date": "2009-01-23",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 8.031
+    },
+    {
+      "i": 50,
+      "date": "2009-02-27",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 6.73
+    },
+    {
+      "i": 51,
+      "date": "2009-03-31",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 10.591
+    },
+    {
+      "i": 52,
+      "date": "2009-04-30",
+      "status": "ok",
+      "shape": [
+        1604,
+        8
+      ],
+      "non_null_rows": 1604,
+      "seconds": 7.676
+    },
+    {
+      "i": 53,
+      "date": "2009-05-27",
+      "status": "ok",
+      "shape": [
+        1602,
+        8
+      ],
+      "non_null_rows": 1602,
+      "seconds": 8.945
+    },
+    {
+      "i": 54,
+      "date": "2009-06-30",
+      "status": "ok",
+      "shape": [
+        1602,
+        8
+      ],
+      "non_null_rows": 1602,
+      "seconds": 5.36
+    },
+    {
+      "i": 55,
+      "date": "2009-07-31",
+      "status": "ok",
+      "shape": [
+        1607,
+        8
+      ],
+      "non_null_rows": 1607,
+      "seconds": 4.98
+    },
+    {
+      "i": 56,
+      "date": "2009-08-31",
+      "status": "ok",
+      "shape": [
+        1617,
+        8
+      ],
+      "non_null_rows": 1617,
+      "seconds": 4.808
+    },
+    {
+      "i": 57,
+      "date": "2009-09-30",
+      "status": "ok",
+      "shape": [
+        1629,
+        8
+      ],
+      "non_null_rows": 1629,
+      "seconds": 5.281
+    },
+    {
+      "i": 58,
+      "date": "2009-10-30",
+      "status": "ok",
+      "shape": [
+        1661,
+        8
+      ],
+      "non_null_rows": 1661,
+      "seconds": 5.389
+    },
+    {
+      "i": 59,
+      "date": "2009-11-30",
+      "status": "ok",
+      "shape": [
+        1672,
+        8
+      ],
+      "non_null_rows": 1672,
+      "seconds": 4.627
+    },
+    {
+      "i": 60,
+      "date": "2009-12-31",
+      "status": "ok",
+      "shape": [
+        1698,
+        8
+      ],
+      "non_null_rows": 1698,
+      "seconds": 4.4
+    },
+    {
+      "i": 61,
+      "date": "2010-01-29",
+      "status": "ok",
+      "shape": [
+        1734,
+        8
+      ],
+      "non_null_rows": 1734,
+      "seconds": 4.658
+    },
+    {
+      "i": 62,
+      "date": "2010-02-26",
+      "status": "ok",
+      "shape": [
+        1755,
+        8
+      ],
+      "non_null_rows": 1755,
+      "seconds": 5.808
+    },
+    {
+      "i": 63,
+      "date": "2010-03-31",
+      "status": "ok",
+      "shape": [
+        1787,
+        8
+      ],
+      "non_null_rows": 1787,
+      "seconds": 5.358
+    },
+    {
+      "i": 64,
+      "date": "2010-04-30",
+      "status": "ok",
+      "shape": [
+        1817,
+        8
+      ],
+      "non_null_rows": 1817,
+      "seconds": 4.921
+    },
+    {
+      "i": 65,
+      "date": "2010-05-31",
+      "status": "ok",
+      "shape": [
+        1843,
+        8
+      ],
+      "non_null_rows": 1843,
+      "seconds": 4.662
+    },
+    {
+      "i": 66,
+      "date": "2010-06-30",
+      "status": "ok",
+      "shape": [
+        1871,
+        8
+      ],
+      "non_null_rows": 1871,
+      "seconds": 4.106
+    },
+    {
+      "i": 67,
+      "date": "2010-07-30",
+      "status": "ok",
+      "shape": [
+        1896,
+        8
+      ],
+      "non_null_rows": 1896,
+      "seconds": 5.333
+    },
+    {
+      "i": 68,
+      "date": "2010-08-31",
+      "status": "ok",
+      "shape": [
+        1928,
+        8
+      ],
+      "non_null_rows": 1927,
+      "seconds": 6.184
+    },
+    {
+      "i": 69,
+      "date": "2010-09-30",
+      "status": "ok",
+      "shape": [
+        1957,
+        8
+      ],
+      "non_null_rows": 1956,
+      "seconds": 5.174
+    },
+    {
+      "i": 70,
+      "date": "2010-10-29",
+      "status": "ok",
+      "shape": [
+        1978,
+        8
+      ],
+      "non_null_rows": 1977,
+      "seconds": 5.102
+    },
+    {
+      "i": 71,
+      "date": "2010-11-30",
+      "status": "ok",
+      "shape": [
+        2007,
+        8
+      ],
+      "non_null_rows": 2006,
+      "seconds": 4.961
+    },
+    {
+      "i": 72,
+      "date": "2010-12-31",
+      "status": "ok",
+      "shape": [
+        2044,
+        8
+      ],
+      "non_null_rows": 2043,
+      "seconds": 4.526
+    },
+    {
+      "i": 73,
+      "date": "2011-01-31",
+      "status": "ok",
+      "shape": [
+        2075,
+        8
+      ],
+      "non_null_rows": 2074,
+      "seconds": 4.798
+    },
+    {
+      "i": 74,
+      "date": "2011-02-28",
+      "status": "ok",
+      "shape": [
+        2102,
+        8
+      ],
+      "non_null_rows": 2101,
+      "seconds": 5.295
+    },
+    {
+      "i": 75,
+      "date": "2011-03-31",
+      "status": "ok",
+      "shape": [
+        2132,
+        8
+      ],
+      "non_null_rows": 2131,
+      "seconds": 5.001
+    },
+    {
+      "i": 76,
+      "date": "2011-04-29",
+      "status": "ok",
+      "shape": [
+        2156,
+        8
+      ],
+      "non_null_rows": 2156,
+      "seconds": 5.835
+    },
+    {
+      "i": 77,
+      "date": "2011-05-31",
+      "status": "ok",
+      "shape": [
+        2182,
+        8
+      ],
+      "non_null_rows": 2182,
+      "seconds": 5.697
+    },
+    {
+      "i": 78,
+      "date": "2011-06-30",
+      "status": "ok",
+      "shape": [
+        2210,
+        8
+      ],
+      "non_null_rows": 2210,
+      "seconds": 4.549
+    },
+    {
+      "i": 79,
+      "date": "2011-07-29",
+      "status": "ok",
+      "shape": [
+        2230,
+        8
+      ],
+      "non_null_rows": 2230,
+      "seconds": 4.365
+    },
+    {
+      "i": 80,
+      "date": "2011-08-31",
+      "status": "ok",
+      "shape": [
+        2254,
+        8
+      ],
+      "non_null_rows": 2254,
+      "seconds": 5.028
+    },
+    {
+      "i": 81,
+      "date": "2011-09-30",
+      "status": "ok",
+      "shape": [
+        2275,
+        8
+      ],
+      "non_null_rows": 2275,
+      "seconds": 5.265
+    },
+    {
+      "i": 82,
+      "date": "2011-10-31",
+      "status": "ok",
+      "shape": [
+        2285,
+        8
+      ],
+      "non_null_rows": 2285,
+      "seconds": 6.161
+    },
+    {
+      "i": 83,
+      "date": "2011-11-30",
+      "status": "ok",
+      "shape": [
+        2305,
+        8
+      ],
+      "non_null_rows": 2305,
+      "seconds": 5.749
+    },
+    {
+      "i": 84,
+      "date": "2011-12-30",
+      "status": "ok",
+      "shape": [
+        2323,
+        8
+      ],
+      "non_null_rows": 2323,
+      "seconds": 5.883
+    },
+    {
+      "i": 85,
+      "date": "2012-01-31",
+      "status": "ok",
+      "shape": [
+        2334,
+        8
+      ],
+      "non_null_rows": 2333,
+      "seconds": 5.239
+    },
+    {
+      "i": 86,
+      "date": "2012-02-29",
+      "status": "ok",
+      "shape": [
+        2346,
+        8
+      ],
+      "non_null_rows": 2345,
+      "seconds": 5.254
+    },
+    {
+      "i": 87,
+      "date": "2012-03-30",
+      "status": "ok",
+      "shape": [
+        2371,
+        8
+      ],
+      "non_null_rows": 2370,
+      "seconds": 6.045
+    },
+    {
+      "i": 88,
+      "date": "2012-04-27",
+      "status": "ok",
+      "shape": [
+        2385,
+        8
+      ],
+      "non_null_rows": 2384,
+      "seconds": 4.711
+    },
+    {
+      "i": 89,
+      "date": "2012-05-31",
+      "status": "ok",
+      "shape": [
+        2404,
+        8
+      ],
+      "non_null_rows": 2403,
+      "seconds": 4.609
+    },
+    {
+      "i": 90,
+      "date": "2012-06-29",
+      "status": "ok",
+      "shape": [
+        2426,
+        8
+      ],
+      "non_null_rows": 2425,
+      "seconds": 4.909
+    },
+    {
+      "i": 91,
+      "date": "2012-07-31",
+      "status": "ok",
+      "shape": [
+        2444,
+        8
+      ],
+      "non_null_rows": 2443,
+      "seconds": 6.232
+    },
+    {
+      "i": 92,
+      "date": "2012-08-31",
+      "status": "ok",
+      "shape": [
+        2459,
+        8
+      ],
+      "non_null_rows": 2458,
+      "seconds": 5.742
+    },
+    {
+      "i": 93,
+      "date": "2012-09-28",
+      "status": "ok",
+      "shape": [
+        2471,
+        8
+      ],
+      "non_null_rows": 2470,
+      "seconds": 5.922
+    },
+    {
+      "i": 94,
+      "date": "2012-10-31",
+      "status": "ok",
+      "shape": [
+        2475,
+        8
+      ],
+      "non_null_rows": 2475,
+      "seconds": 4.907
+    },
+    {
+      "i": 95,
+      "date": "2012-11-30",
+      "status": "ok",
+      "shape": [
+        2476,
+        8
+      ],
+      "non_null_rows": 2476,
+      "seconds": 4.846
+    },
+    {
+      "i": 96,
+      "date": "2012-12-31",
+      "status": "ok",
+      "shape": [
+        2476,
+        8
+      ],
+      "non_null_rows": 2476,
+      "seconds": 7.035
+    },
+    {
+      "i": 97,
+      "date": "2013-01-31",
+      "status": "ok",
+      "shape": [
+        2476,
+        8
+      ],
+      "non_null_rows": 2476,
+      "seconds": 7.187
+    },
+    {
+      "i": 98,
+      "date": "2013-02-28",
+      "status": "ok",
+      "shape": [
+        2475,
+        8
+      ],
+      "non_null_rows": 2475,
+      "seconds": 6.337
+    },
+    {
+      "i": 99,
+      "date": "2013-03-29",
+      "status": "ok",
+      "shape": [
+        2474,
+        8
+      ],
+      "non_null_rows": 2474,
+      "seconds": 4.805
+    },
+    {
+      "i": 100,
+      "date": "2013-04-26",
+      "status": "ok",
+      "shape": [
+        2473,
+        8
+      ],
+      "non_null_rows": 2473,
+      "seconds": 4.195
+    },
+    {
+      "i": 101,
+      "date": "2013-05-31",
+      "status": "ok",
+      "shape": [
+        2473,
+        8
+      ],
+      "non_null_rows": 2473,
+      "seconds": 4.65
+    },
+    {
+      "i": 102,
+      "date": "2013-06-28",
+      "status": "ok",
+      "shape": [
+        2473,
+        8
+      ],
+      "non_null_rows": 2473,
+      "seconds": 4.201
+    },
+    {
+      "i": 103,
+      "date": "2013-07-31",
+      "status": "ok",
+      "shape": [
+        2472,
+        8
+      ],
+      "non_null_rows": 2472,
+      "seconds": 4.385
+    },
+    {
+      "i": 104,
+      "date": "2013-08-30",
+      "status": "ok",
+      "shape": [
+        2471,
+        8
+      ],
+      "non_null_rows": 2471,
+      "seconds": 5.207
+    },
+    {
+      "i": 105,
+      "date": "2013-09-30",
+      "status": "ok",
+      "shape": [
+        2471,
+        8
+      ],
+      "non_null_rows": 2471,
+      "seconds": 4.219
+    },
+    {
+      "i": 106,
+      "date": "2013-10-31",
+      "status": "ok",
+      "shape": [
+        2471,
+        8
+      ],
+      "non_null_rows": 2471,
+      "seconds": 5.775
+    },
+    {
+      "i": 107,
+      "date": "2013-11-29",
+      "status": "ok",
+      "shape": [
+        2471,
+        8
+      ],
+      "non_null_rows": 2471,
+      "seconds": 5.645
+    },
+    {
+      "i": 108,
+      "date": "2013-12-31",
+      "status": "ok",
+      "shape": [
+        2472,
+        8
+      ],
+      "non_null_rows": 2472,
+      "seconds": 4.861
+    },
+    {
+      "i": 109,
+      "date": "2014-01-30",
+      "status": "ok",
+      "shape": [
+        2515,
+        8
+      ],
+      "non_null_rows": 2515,
+      "seconds": 5.304
+    },
+    {
+      "i": 110,
+      "date": "2014-02-28",
+      "status": "ok",
+      "shape": [
+        2520,
+        8
+      ],
+      "non_null_rows": 2520,
+      "seconds": 4.024
+    },
+    {
+      "i": 111,
+      "date": "2014-03-31",
+      "status": "ok",
+      "shape": [
+        2520,
+        8
+      ],
+      "non_null_rows": 2520,
+      "seconds": 4.447
+    },
+    {
+      "i": 112,
+      "date": "2014-04-30",
+      "status": "ok",
+      "shape": [
+        2520,
+        8
+      ],
+      "non_null_rows": 2520,
+      "seconds": 4.78
+    },
+    {
+      "i": 113,
+      "date": "2014-05-30",
+      "status": "ok",
+      "shape": [
+        2520,
+        8
+      ],
+      "non_null_rows": 2520,
+      "seconds": 4.098
+    },
+    {
+      "i": 114,
+      "date": "2014-06-30",
+      "status": "ok",
+      "shape": [
+        2523,
+        8
+      ],
+      "non_null_rows": 2523,
+      "seconds": 4.116
+    },
+    {
+      "i": 115,
+      "date": "2014-07-31",
+      "status": "ok",
+      "shape": [
+        2532,
+        8
+      ],
+      "non_null_rows": 2532,
+      "seconds": 4.035
+    },
+    {
+      "i": 116,
+      "date": "2014-08-29",
+      "status": "ok",
+      "shape": [
+        2541,
+        8
+      ],
+      "non_null_rows": 2541,
+      "seconds": 4.841
+    },
+    {
+      "i": 117,
+      "date": "2014-09-30",
+      "status": "ok",
+      "shape": [
+        2552,
+        8
+      ],
+      "non_null_rows": 2552,
+      "seconds": 5.928
+    },
+    {
+      "i": 118,
+      "date": "2014-10-31",
+      "status": "ok",
+      "shape": [
+        2567,
+        8
+      ],
+      "non_null_rows": 2567,
+      "seconds": 5.112
+    },
+    {
+      "i": 119,
+      "date": "2014-11-28",
+      "status": "ok",
+      "shape": [
+        2575,
+        8
+      ],
+      "non_null_rows": 2575,
+      "seconds": 5.144
+    },
+    {
+      "i": 120,
+      "date": "2014-12-31",
+      "status": "ok",
+      "shape": [
+        2596,
+        8
+      ],
+      "non_null_rows": 2596,
+      "seconds": 4.252
+    },
+    {
+      "i": 121,
+      "date": "2015-01-30",
+      "status": "ok",
+      "shape": [
+        2618,
+        8
+      ],
+      "non_null_rows": 2618,
+      "seconds": 4.256
+    },
+    {
+      "i": 122,
+      "date": "2015-02-27",
+      "status": "ok",
+      "shape": [
+        2639,
+        8
+      ],
+      "non_null_rows": 2639,
+      "seconds": 4.895
+    },
+    {
+      "i": 123,
+      "date": "2015-03-31",
+      "status": "ok",
+      "shape": [
+        2666,
+        8
+      ],
+      "non_null_rows": 2666,
+      "seconds": 9.316
+    },
+    {
+      "i": 124,
+      "date": "2015-04-30",
+      "status": "ok",
+      "shape": [
+        2696,
+        8
+      ],
+      "non_null_rows": 2696,
+      "seconds": 8.736
+    },
+    {
+      "i": 125,
+      "date": "2015-05-29",
+      "status": "ok",
+      "shape": [
+        2737,
+        8
+      ],
+      "non_null_rows": 2737,
+      "seconds": 11.067
+    },
+    {
+      "i": 126,
+      "date": "2015-06-30",
+      "status": "ok",
+      "shape": [
+        2780,
+        8
+      ],
+      "non_null_rows": 2780,
+      "seconds": 7.388
+    },
+    {
+      "i": 127,
+      "date": "2015-07-31",
+      "status": "ok",
+      "shape": [
+        2784,
+        8
+      ],
+      "non_null_rows": 2784,
+      "seconds": 10.994
+    },
+    {
+      "i": 128,
+      "date": "2015-08-31",
+      "status": "ok",
+      "shape": [
+        2784,
+        8
+      ],
+      "non_null_rows": 2784,
+      "seconds": 12.055
+    },
+    {
+      "i": 129,
+      "date": "2015-09-30",
+      "status": "ok",
+      "shape": [
+        2784,
+        8
+      ],
+      "non_null_rows": 2784,
+      "seconds": 9.416
+    },
+    {
+      "i": 130,
+      "date": "2015-10-30",
+      "status": "ok",
+      "shape": [
+        2784,
+        8
+      ],
+      "non_null_rows": 2784,
+      "seconds": 4.801
+    },
+    {
+      "i": 131,
+      "date": "2015-11-30",
+      "status": "ok",
+      "shape": [
+        2784,
+        8
+      ],
+      "non_null_rows": 2784,
+      "seconds": 6.468
+    },
+    {
+      "i": 132,
+      "date": "2015-12-31",
+      "status": "ok",
+      "shape": [
+        2812,
+        8
+      ],
+      "non_null_rows": 2812,
+      "seconds": 4.114
+    },
+    {
+      "i": 133,
+      "date": "2016-01-29",
+      "status": "ok",
+      "shape": [
+        2813,
+        8
+      ],
+      "non_null_rows": 2813,
+      "seconds": 4.279
+    },
+    {
+      "i": 134,
+      "date": "2016-02-29",
+      "status": "ok",
+      "shape": [
+        2820,
+        8
+      ],
+      "non_null_rows": 2820,
+      "seconds": 5.637
+    },
+    {
+      "i": 135,
+      "date": "2016-03-31",
+      "status": "ok",
+      "shape": [
+        2836,
+        8
+      ],
+      "non_null_rows": 2836,
+      "seconds": 7.31
+    },
+    {
+      "i": 136,
+      "date": "2016-04-29",
+      "status": "ok",
+      "shape": [
+        2847,
+        8
+      ],
+      "non_null_rows": 2847,
+      "seconds": 7.78
+    },
+    {
+      "i": 137,
+      "date": "2016-05-31",
+      "status": "ok",
+      "shape": [
+        2859,
+        8
+      ],
+      "non_null_rows": 2859,
+      "seconds": 3.985
+    },
+    {
+      "i": 138,
+      "date": "2016-06-30",
+      "status": "ok",
+      "shape": [
+        2872,
+        8
+      ],
+      "non_null_rows": 2872,
+      "seconds": 4.783
+    },
+    {
+      "i": 139,
+      "date": "2016-07-29",
+      "status": "ok",
+      "shape": [
+        2885,
+        8
+      ],
+      "non_null_rows": 2885,
+      "seconds": 4.19
+    },
+    {
+      "i": 140,
+      "date": "2016-08-31",
+      "status": "ok",
+      "shape": [
+        2915,
+        8
+      ],
+      "non_null_rows": 2915,
+      "seconds": 4.255
+    },
+    {
+      "i": 141,
+      "date": "2016-09-30",
+      "status": "ok",
+      "shape": [
+        2937,
+        8
+      ],
+      "non_null_rows": 2937,
+      "seconds": 4.667
+    },
+    {
+      "i": 142,
+      "date": "2016-10-31",
+      "status": "ok",
+      "shape": [
+        2959,
+        8
+      ],
+      "non_null_rows": 2959,
+      "seconds": 4.849
+    },
+    {
+      "i": 143,
+      "date": "2016-11-30",
+      "status": "ok",
+      "shape": [
+        2993,
+        8
+      ],
+      "non_null_rows": 2993,
+      "seconds": 6.233
+    },
+    {
+      "i": 144,
+      "date": "2016-12-30",
+      "status": "ok",
+      "shape": [
+        3038,
+        8
+      ],
+      "non_null_rows": 3038,
+      "seconds": 4.78
+    },
+    {
+      "i": 145,
+      "date": "2017-01-26",
+      "status": "ok",
+      "shape": [
+        3091,
+        8
+      ],
+      "non_null_rows": 3091,
+      "seconds": 5.104
+    },
+    {
+      "i": 146,
+      "date": "2017-02-28",
+      "status": "ok",
+      "shape": [
+        3123,
+        8
+      ],
+      "non_null_rows": 3123,
+      "seconds": 5.224
+    },
+    {
+      "i": 147,
+      "date": "2017-03-31",
+      "status": "ok",
+      "shape": [
+        3171,
+        8
+      ],
+      "non_null_rows": 3171,
+      "seconds": 5.937
+    },
+    {
+      "i": 148,
+      "date": "2017-04-28",
+      "status": "ok",
+      "shape": [
+        3209,
+        8
+      ],
+      "non_null_rows": 3209,
+      "seconds": 4.809
+    },
+    {
+      "i": 149,
+      "date": "2017-05-31",
+      "status": "ok",
+      "shape": [
+        3247,
+        8
+      ],
+      "non_null_rows": 3247,
+      "seconds": 6.371
+    },
+    {
+      "i": 150,
+      "date": "2017-06-30",
+      "status": "ok",
+      "shape": [
+        3283,
+        8
+      ],
+      "non_null_rows": 3283,
+      "seconds": 7.525
+    },
+    {
+      "i": 151,
+      "date": "2017-07-31",
+      "status": "ok",
+      "shape": [
+        3312,
+        8
+      ],
+      "non_null_rows": 3312,
+      "seconds": 6.427
+    },
+    {
+      "i": 152,
+      "date": "2017-08-31",
+      "status": "ok",
+      "shape": [
+        3348,
+        8
+      ],
+      "non_null_rows": 3348,
+      "seconds": 9.844
+    },
+    {
+      "i": 153,
+      "date": "2017-09-29",
+      "status": "ok",
+      "shape": [
+        3385,
+        8
+      ],
+      "non_null_rows": 3385,
+      "seconds": 6.908
+    },
+    {
+      "i": 154,
+      "date": "2017-10-31",
+      "status": "ok",
+      "shape": [
+        3412,
+        8
+      ],
+      "non_null_rows": 3412,
+      "seconds": 6.786
+    },
+    {
+      "i": 155,
+      "date": "2017-11-30",
+      "status": "ok",
+      "shape": [
+        3448,
+        8
+      ],
+      "non_null_rows": 3448,
+      "seconds": 6.694
+    },
+    {
+      "i": 156,
+      "date": "2017-12-29",
+      "status": "ok",
+      "shape": [
+        3471,
+        8
+      ],
+      "non_null_rows": 3471,
+      "seconds": 7.953
+    },
+    {
+      "i": 157,
+      "date": "2018-01-31",
+      "status": "ok",
+      "shape": [
+        3486,
+        8
+      ],
+      "non_null_rows": 3486,
+      "seconds": 7.461
+    },
+    {
+      "i": 158,
+      "date": "2018-02-28",
+      "status": "ok",
+      "shape": [
+        3497,
+        8
+      ],
+      "non_null_rows": 3497,
+      "seconds": 7.394
+    },
+    {
+      "i": 159,
+      "date": "2018-03-30",
+      "status": "ok",
+      "shape": [
+        3507,
+        8
+      ],
+      "non_null_rows": 3507,
+      "seconds": 7.174
+    },
+    {
+      "i": 160,
+      "date": "2018-04-27",
+      "status": "ok",
+      "shape": [
+        3516,
+        8
+      ],
+      "non_null_rows": 3516,
+      "seconds": 7.075
+    },
+    {
+      "i": 161,
+      "date": "2018-05-31",
+      "status": "ok",
+      "shape": [
+        3524,
+        8
+      ],
+      "non_null_rows": 3524,
+      "seconds": 7.089
+    },
+    {
+      "i": 162,
+      "date": "2018-06-29",
+      "status": "ok",
+      "shape": [
+        3533,
+        8
+      ],
+      "non_null_rows": 3533,
+      "seconds": 7.401
+    },
+    {
+      "i": 163,
+      "date": "2018-07-31",
+      "status": "ok",
+      "shape": [
+        3537,
+        8
+      ],
+      "non_null_rows": 3537,
+      "seconds": 10.079
+    },
+    {
+      "i": 164,
+      "date": "2018-08-31",
+      "status": "ok",
+      "shape": [
+        3543,
+        8
+      ],
+      "non_null_rows": 3543,
+      "seconds": 11.739
+    },
+    {
+      "i": 165,
+      "date": "2018-09-28",
+      "status": "ok",
+      "shape": [
+        3554,
+        8
+      ],
+      "non_null_rows": 3554,
+      "seconds": 11.844
+    },
+    {
+      "i": 166,
+      "date": "2018-10-31",
+      "status": "ok",
+      "shape": [
+        3559,
+        8
+      ],
+      "non_null_rows": 3559,
+      "seconds": 10.506
+    },
+    {
+      "i": 167,
+      "date": "2018-11-30",
+      "status": "ok",
+      "shape": [
+        3567,
+        8
+      ],
+      "non_null_rows": 3567,
+      "seconds": 11.882
+    },
+    {
+      "i": 168,
+      "date": "2018-12-28",
+      "status": "ok",
+      "shape": [
+        3569,
+        8
+      ],
+      "non_null_rows": 3569,
+      "seconds": 11.967
+    },
+    {
+      "i": 169,
+      "date": "2019-01-31",
+      "status": "ok",
+      "shape": [
+        3585,
+        8
+      ],
+      "non_null_rows": 3585,
+      "seconds": 10.532
+    },
+    {
+      "i": 170,
+      "date": "2019-02-28",
+      "status": "ok",
+      "shape": [
+        3591,
+        8
+      ],
+      "non_null_rows": 3591,
+      "seconds": 12.251
+    },
+    {
+      "i": 171,
+      "date": "2019-03-29",
+      "status": "ok",
+      "shape": [
+        3602,
+        8
+      ],
+      "non_null_rows": 3602,
+      "seconds": 14.347
+    },
+    {
+      "i": 172,
+      "date": "2019-04-30",
+      "status": "ok",
+      "shape": [
+        3612,
+        8
+      ],
+      "non_null_rows": 3612,
+      "seconds": 13.529
+    },
+    {
+      "i": 173,
+      "date": "2019-05-31",
+      "status": "ok",
+      "shape": [
+        3624,
+        8
+      ],
+      "non_null_rows": 3624,
+      "seconds": 13.984
+    },
+    {
+      "i": 174,
+      "date": "2019-06-28",
+      "status": "ok",
+      "shape": [
+        3633,
+        8
+      ],
+      "non_null_rows": 3633,
+      "seconds": 18.325
+    },
+    {
+      "i": 175,
+      "date": "2019-07-31",
+      "status": "ok",
+      "shape": [
+        3667,
+        8
+      ],
+      "non_null_rows": 3667,
+      "seconds": 22.537
+    },
+    {
+      "i": 176,
+      "date": "2019-08-30",
+      "status": "ok",
+      "shape": [
+        3682,
+        8
+      ],
+      "non_null_rows": 3682,
+      "seconds": 16.298
+    },
+    {
+      "i": 177,
+      "date": "2019-09-30",
+      "status": "ok",
+      "shape": [
+        3693,
+        8
+      ],
+      "non_null_rows": 3693,
+      "seconds": 15.182
+    },
+    {
+      "i": 178,
+      "date": "2019-10-31",
+      "status": "ok",
+      "shape": [
+        3708,
+        8
+      ],
+      "non_null_rows": 3708,
+      "seconds": 13.484
+    },
+    {
+      "i": 179,
+      "date": "2019-11-29",
+      "status": "ok",
+      "shape": [
+        3736,
+        8
+      ],
+      "non_null_rows": 3736,
+      "seconds": 15.189
+    },
+    {
+      "i": 180,
+      "date": "2019-12-31",
+      "status": "ok",
+      "shape": [
+        3761,
+        8
+      ],
+      "non_null_rows": 3761,
+      "seconds": 12.678
+    },
+    {
+      "i": 181,
+      "date": "2020-01-23",
+      "status": "ok",
+      "shape": [
+        3776,
+        8
+      ],
+      "non_null_rows": 3776,
+      "seconds": 12.797
+    },
+    {
+      "i": 182,
+      "date": "2020-02-28",
+      "status": "ok",
+      "shape": [
+        3797,
+        8
+      ],
+      "non_null_rows": 3797,
+      "seconds": 13.892
+    },
+    {
+      "i": 183,
+      "date": "2020-03-31",
+      "status": "ok",
+      "shape": [
+        3810,
+        8
+      ],
+      "non_null_rows": 3810,
+      "seconds": 16.186
+    },
+    {
+      "i": 184,
+      "date": "2020-04-30",
+      "status": "ok",
+      "shape": [
+        3834,
+        8
+      ],
+      "non_null_rows": 3834,
+      "seconds": 18.118
+    },
+    {
+      "i": 185,
+      "date": "2020-05-29",
+      "status": "ok",
+      "shape": [
+        3852,
+        8
+      ],
+      "non_null_rows": 3852,
+      "seconds": 12.597
+    },
+    {
+      "i": 186,
+      "date": "2020-06-30",
+      "status": "ok",
+      "shape": [
+        3877,
+        8
+      ],
+      "non_null_rows": 3877,
+      "seconds": 11.108
+    },
+    {
+      "i": 187,
+      "date": "2020-07-31",
+      "status": "ok",
+      "shape": [
+        3923,
+        8
+      ],
+      "non_null_rows": 3923,
+      "seconds": 10.787
+    },
+    {
+      "i": 188,
+      "date": "2020-08-31",
+      "status": "ok",
+      "shape": [
+        3976,
+        8
+      ],
+      "non_null_rows": 3976,
+      "seconds": 10.124
+    },
+    {
+      "i": 189,
+      "date": "2020-09-30",
+      "status": "ok",
+      "shape": [
+        4042,
+        8
+      ],
+      "non_null_rows": 4042,
+      "seconds": 9.732
+    },
+    {
+      "i": 190,
+      "date": "2020-10-30",
+      "status": "ok",
+      "shape": [
+        4068,
+        8
+      ],
+      "non_null_rows": 4068,
+      "seconds": 10.074
+    },
+    {
+      "i": 191,
+      "date": "2020-11-30",
+      "status": "ok",
+      "shape": [
+        4088,
+        8
+      ],
+      "non_null_rows": 4088,
+      "seconds": 9.611
+    },
+    {
+      "i": 192,
+      "date": "2020-12-31",
+      "status": "ok",
+      "shape": [
+        4141,
+        8
+      ],
+      "non_null_rows": 4141,
+      "seconds": 10.288
+    },
+    {
+      "i": 193,
+      "date": "2021-01-29",
+      "status": "ok",
+      "shape": [
+        4173,
+        8
+      ],
+      "non_null_rows": 4173,
+      "seconds": 10.327
+    },
+    {
+      "i": 194,
+      "date": "2021-02-26",
+      "status": "ok",
+      "shape": [
+        4201,
+        8
+      ],
+      "non_null_rows": 4201,
+      "seconds": 14.231
+    },
+    {
+      "i": 195,
+      "date": "2021-03-31",
+      "status": "ok",
+      "shape": [
+        4235,
+        8
+      ],
+      "non_null_rows": 4235,
+      "seconds": 16.212
+    },
+    {
+      "i": 196,
+      "date": "2021-04-30",
+      "status": "ok",
+      "shape": [
+        4288,
+        8
+      ],
+      "non_null_rows": 4288,
+      "seconds": 13.409
+    },
+    {
+      "i": 197,
+      "date": "2021-05-31",
+      "status": "ok",
+      "shape": [
+        4326,
+        8
+      ],
+      "non_null_rows": 4326,
+      "seconds": 11.299
+    },
+    {
+      "i": 198,
+      "date": "2021-06-29",
+      "status": "ok",
+      "shape": [
+        4369,
+        8
+      ],
+      "non_null_rows": 4369,
+      "seconds": 10.819
+    },
+    {
+      "i": 199,
+      "date": "2021-06-30",
+      "status": "ok",
+      "shape": [
+        4374,
+        8
+      ],
+      "non_null_rows": 4374,
+      "seconds": 12.083
+    },
+    {
+      "i": 200,
+      "date": "2021-07-30",
+      "status": "ok",
+      "shape": [
+        4417,
+        8
+      ],
+      "non_null_rows": 4417,
+      "seconds": 25.743
+    },
+    {
+      "i": 201,
+      "date": "2021-08-31",
+      "status": "ok",
+      "shape": [
+        4456,
+        8
+      ],
+      "non_null_rows": 4456,
+      "seconds": 28.542
+    },
+    {
+      "i": 202,
+      "date": "2021-09-30",
+      "status": "ok",
+      "shape": [
+        4495,
+        8
+      ],
+      "non_null_rows": 4495,
+      "seconds": 28.608
+    },
+    {
+      "i": 203,
+      "date": "2021-10-29",
+      "status": "ok",
+      "shape": [
+        4526,
+        8
+      ],
+      "non_null_rows": 4526,
+      "seconds": 27.551
+    },
+    {
+      "i": 204,
+      "date": "2021-11-30",
+      "status": "ok",
+      "shape": [
+        4559,
+        8
+      ],
+      "non_null_rows": 4559,
+      "seconds": 33.871
+    },
+    {
+      "i": 205,
+      "date": "2021-12-31",
+      "status": "ok",
+      "shape": [
+        4604,
+        8
+      ],
+      "non_null_rows": 4604,
+      "seconds": 30.771
+    },
+    {
+      "i": 206,
+      "date": "2022-01-28",
+      "status": "ok",
+      "shape": [
+        4633,
+        8
+      ],
+      "non_null_rows": 4633,
+      "seconds": 5.021
+    },
+    {
+      "i": 207,
+      "date": "2022-02-28",
+      "status": "ok",
+      "shape": [
+        4648,
+        8
+      ],
+      "non_null_rows": 4648,
+      "seconds": 4.979
+    },
+    {
+      "i": 208,
+      "date": "2022-03-31",
+      "status": "ok",
+      "shape": [
+        4682,
+        8
+      ],
+      "non_null_rows": 4682,
+      "seconds": 5.793
+    },
+    {
+      "i": 209,
+      "date": "2022-04-29",
+      "status": "ok",
+      "shape": [
+        4715,
+        8
+      ],
+      "non_null_rows": 4715,
+      "seconds": 4.966
+    },
+    {
+      "i": 210,
+      "date": "2022-05-31",
+      "status": "ok",
+      "shape": [
+        4725,
+        8
+      ],
+      "non_null_rows": 4725,
+      "seconds": 4.762
+    },
+    {
+      "i": 211,
+      "date": "2022-06-30",
+      "status": "ok",
+      "shape": [
+        4720,
+        8
+      ],
+      "non_null_rows": 4720,
+      "seconds": 4.809
+    },
+    {
+      "i": 212,
+      "date": "2022-07-29",
+      "status": "ok",
+      "shape": [
+        4741,
+        8
+      ],
+      "non_null_rows": 4741,
+      "seconds": 4.948
+    },
+    {
+      "i": 213,
+      "date": "2022-08-31",
+      "status": "ok",
+      "shape": [
+        4788,
+        8
+      ],
+      "non_null_rows": 4788,
+      "seconds": 5.549
+    },
+    {
+      "i": 214,
+      "date": "2022-09-30",
+      "status": "ok",
+      "shape": [
+        4830,
+        8
+      ],
+      "non_null_rows": 4830,
+      "seconds": 5.224
+    },
+    {
+      "i": 215,
+      "date": "2022-10-31",
+      "status": "ok",
+      "shape": [
+        4854,
+        8
+      ],
+      "non_null_rows": 4854,
+      "seconds": 5.026
+    },
+    {
+      "i": 216,
+      "date": "2022-11-30",
+      "status": "ok",
+      "shape": [
+        4878,
+        8
+      ],
+      "non_null_rows": 4878,
+      "seconds": 7.618
+    },
+    {
+      "i": 217,
+      "date": "2022-12-30",
+      "status": "ok",
+      "shape": [
+        4906,
+        8
+      ],
+      "non_null_rows": 4906,
+      "seconds": 8.814
+    },
+    {
+      "i": 218,
+      "date": "2023-01-31",
+      "status": "ok",
+      "shape": [
+        4912,
+        8
+      ],
+      "non_null_rows": 4912,
+      "seconds": 4.824
+    },
+    {
+      "i": 219,
+      "date": "2023-02-28",
+      "status": "ok",
+      "shape": [
+        4926,
+        8
+      ],
+      "non_null_rows": 4926,
+      "seconds": 4.865
+    },
+    {
+      "i": 220,
+      "date": "2023-03-31",
+      "status": "ok",
+      "shape": [
+        4948,
+        8
+      ],
+      "non_null_rows": 4948,
+      "seconds": 5.86
+    },
+    {
+      "i": 221,
+      "date": "2023-04-28",
+      "status": "ok",
+      "shape": [
+        4974,
+        8
+      ],
+      "non_null_rows": 4974,
+      "seconds": 9.287
+    },
+    {
+      "i": 222,
+      "date": "2023-05-31",
+      "status": "ok",
+      "shape": [
+        4996,
+        8
+      ],
+      "non_null_rows": 4996,
+      "seconds": 5.517
+    },
+    {
+      "i": 223,
+      "date": "2023-06-30",
+      "status": "ok",
+      "shape": [
+        5020,
+        8
+      ],
+      "non_null_rows": 5020,
+      "seconds": 6.05
+    },
+    {
+      "i": 224,
+      "date": "2023-07-31",
+      "status": "ok",
+      "shape": [
+        5031,
+        8
+      ],
+      "non_null_rows": 5031,
+      "seconds": 4.524
+    },
+    {
+      "i": 225,
+      "date": "2023-08-31",
+      "status": "ok",
+      "shape": [
+        5051,
+        8
+      ],
+      "non_null_rows": 5051,
+      "seconds": 4.387
+    },
+    {
+      "i": 226,
+      "date": "2023-09-28",
+      "status": "ok",
+      "shape": [
+        5066,
+        8
+      ],
+      "non_null_rows": 5066,
+      "seconds": 3.828
+    },
+    {
+      "i": 227,
+      "date": "2023-10-31",
+      "status": "ok",
+      "shape": [
+        5073,
+        8
+      ],
+      "non_null_rows": 5073,
+      "seconds": 3.686
+    },
+    {
+      "i": 228,
+      "date": "2023-11-30",
+      "status": "ok",
+      "shape": [
+        5082,
+        8
+      ],
+      "non_null_rows": 5082,
+      "seconds": 3.707
+    },
+    {
+      "i": 229,
+      "date": "2023-12-29",
+      "status": "ok",
+      "shape": [
+        5097,
+        8
+      ],
+      "non_null_rows": 5097,
+      "seconds": 4.07
+    },
+    {
+      "i": 230,
+      "date": "2024-01-31",
+      "status": "ok",
+      "shape": [
+        5105,
+        8
+      ],
+      "non_null_rows": 5105,
+      "seconds": 5.699
+    },
+    {
+      "i": 231,
+      "date": "2024-02-29",
+      "status": "ok",
+      "shape": [
+        5109,
+        8
+      ],
+      "non_null_rows": 5109,
+      "seconds": 4.129
+    },
+    {
+      "i": 232,
+      "date": "2024-03-29",
+      "status": "ok",
+      "shape": [
+        5113,
+        8
+      ],
+      "non_null_rows": 5113,
+      "seconds": 4.897
+    },
+    {
+      "i": 233,
+      "date": "2024-04-30",
+      "status": "ok",
+      "shape": [
+        5114,
+        8
+      ],
+      "non_null_rows": 5114,
+      "seconds": 5.345
+    },
+    {
+      "i": 234,
+      "date": "2024-05-31",
+      "status": "ok",
+      "shape": [
+        5116,
+        8
+      ],
+      "non_null_rows": 5116,
+      "seconds": 4.417
+    },
+    {
+      "i": 235,
+      "date": "2024-06-28",
+      "status": "ok",
+      "shape": [
+        5115,
+        8
+      ],
+      "non_null_rows": 5115,
+      "seconds": 4.649
+    },
+    {
+      "i": 236,
+      "date": "2024-07-31",
+      "status": "ok",
+      "shape": [
+        5108,
+        8
+      ],
+      "non_null_rows": 5108,
+      "seconds": 4.533
+    },
+    {
+      "i": 237,
+      "date": "2024-08-30",
+      "status": "ok",
+      "shape": [
+        5099,
+        8
+      ],
+      "non_null_rows": 5099,
+      "seconds": 4.027
+    },
+    {
+      "i": 238,
+      "date": "2024-09-30",
+      "status": "ok",
+      "shape": [
+        5102,
+        8
+      ],
+      "non_null_rows": 5102,
+      "seconds": 4.606
+    },
+    {
+      "i": 239,
+      "date": "2024-10-31",
+      "status": "ok",
+      "shape": [
+        5108,
+        8
+      ],
+      "non_null_rows": 5108,
+      "seconds": 4.35
+    },
+    {
+      "i": 240,
+      "date": "2024-11-29",
+      "status": "ok",
+      "shape": [
+        5114,
+        8
+      ],
+      "non_null_rows": 5114,
+      "seconds": 5.58
+    },
+    {
+      "i": 241,
+      "date": "2024-12-31",
+      "status": "ok",
+      "shape": [
+        5122,
+        8
+      ],
+      "non_null_rows": 5122,
+      "seconds": 4.231
+    },
+    {
+      "i": 242,
+      "date": "2025-01-27",
+      "status": "ok",
+      "shape": [
+        5133,
+        8
+      ],
+      "non_null_rows": 5133,
+      "seconds": 3.781
+    },
+    {
+      "i": 243,
+      "date": "2025-02-28",
+      "status": "ok",
+      "shape": [
+        5131,
+        8
+      ],
+      "non_null_rows": 5131,
+      "seconds": 4.144
+    },
+    {
+      "i": 244,
+      "date": "2025-03-31",
+      "status": "ok",
+      "shape": [
+        5140,
+        8
+      ],
+      "non_null_rows": 5140,
+      "seconds": 5.595
+    },
+    {
+      "i": 245,
+      "date": "2025-04-30",
+      "status": "ok",
+      "shape": [
+        5146,
+        8
+      ],
+      "non_null_rows": 5146,
+      "seconds": 4.492
+    },
+    {
+      "i": 246,
+      "date": "2025-05-30",
+      "status": "ok",
+      "shape": [
+        5147,
+        8
+      ],
+      "non_null_rows": 5147,
+      "seconds": 5.662
+    },
+    {
+      "i": 247,
+      "date": "2025-06-30",
+      "status": "ok",
+      "shape": [
+        5152,
+        8
+      ],
+      "non_null_rows": 5152,
+      "seconds": 4.718
+    },
+    {
+      "i": 248,
+      "date": "2025-07-31",
+      "status": "ok",
+      "shape": [
+        5150,
+        8
+      ],
+      "non_null_rows": 5150,
+      "seconds": 5.534
+    },
+    {
+      "i": 249,
+      "date": "2025-08-29",
+      "status": "ok",
+      "shape": [
+        5153,
+        8
+      ],
+      "non_null_rows": 5153,
+      "seconds": 8.001
+    },
+    {
+      "i": 250,
+      "date": "2025-09-30",
+      "status": "ok",
+      "shape": [
+        5159,
+        8
+      ],
+      "non_null_rows": 5159,
+      "seconds": 7.3
+    },
+    {
+      "i": 251,
+      "date": "2025-10-31",
+      "status": "ok",
+      "shape": [
+        5164,
+        8
+      ],
+      "non_null_rows": 5164,
+      "seconds": 7.481
+    },
+    {
+      "i": 252,
+      "date": "2025-11-28",
+      "status": "ok",
+      "shape": [
+        5169,
+        8
+      ],
+      "non_null_rows": 5169,
+      "seconds": 6.609
+    },
+    {
+      "i": 253,
+      "date": "2025-12-31",
+      "status": "ok",
+      "shape": [
+        5182,
+        8
+      ],
+      "non_null_rows": 5182,
+      "seconds": 8.483
+    },
+    {
+      "i": 254,
+      "date": "2026-01-30",
+      "status": "ok",
+      "shape": [
+        5185,
+        8
+      ],
+      "non_null_rows": 5185,
+      "seconds": 9.305
+    },
+    {
+      "i": 255,
+      "date": "2026-02-27",
+      "status": "ok",
+      "shape": [
+        5190,
+        8
+      ],
+      "non_null_rows": 5190,
+      "seconds": 15.999
+    },
+    {
+      "i": 256,
+      "date": "2026-03-31",
+      "status": "ok",
+      "shape": [
+        5193,
+        8
+      ],
+      "non_null_rows": 5193,
+      "seconds": 10.057
+    },
+    {
+      "i": 257,
+      "date": "2026-04-30",
+      "status": "ok",
+      "shape": [
+        5201,
+        8
+      ],
+      "non_null_rows": 5201,
+      "seconds": 9.526
+    },
+    {
+      "i": 258,
+      "date": "2026-05-29",
+      "status": "ok",
+      "shape": [
+        5208,
+        8
+      ],
+      "non_null_rows": 5208,
+      "seconds": 6.041
+    },
+    {
+      "i": 259,
+      "date": "2026-06-16",
+      "status": "ok",
+      "shape": [
+        5207,
+        8
+      ],
+      "non_null_rows": 5207,
+      "seconds": 4.259
+    }
+  ],
+  "status": "ok",
+  "failed_dates": [],
+  "seconds_total": 1985.231,
+  "output_file": "D:\\RiceQuantData\\project_cache\\factor_monthly_full_history.pkl",
+  "final_shape": [
+    796489,
+    10
+  ],
+  "memory_bytes": 111508592,
+  "non_null_by_factor": {
+    "market_cap": 795825,
+    "pe_ratio_ttm": 779150,
+    "pb_ratio_ttm": 768892,
+    "book_to_market_ratio_ttm": 778042,
+    "return_on_equity_ttm": 750588,
+    "return_on_asset_ttm": 778922,
+    "gross_profit_margin_ttm": 757479,
+    "ocf_to_debt_ttm": 776487
+  }
+}

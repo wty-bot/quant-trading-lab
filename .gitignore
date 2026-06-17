@@ -1,3 +1,11 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 .DS_Store
+.pytest_cache/
+*.pkl
+*.h5
+*.npy
+reports/cache/
+reports/local_backtests/
+output/
+notebooks/

@@ -6,8 +6,8 @@
 
 最终结果目录：
 
-- 最近 5 年：`reports/local_backtests/final_enhanced_ma240_tv08_5y`
-- Max：`reports/local_backtests/final_enhanced_ma240_tv08_max`
+- 最近 5 年：`results/final_backtests/5y`
+- Max：`results/final_backtests/max`
 
 最终报告：
 
@@ -65,8 +65,8 @@
 - 本地数据加载模块：`src/data/local_loader.py`
 - 数据加载测试：`tests/test_local_loader.py`
 - 最终策略模块：`src/strategy/trend_quality_core.py`
-- 最近 5 年结果：`reports/local_backtests/final_enhanced_ma240_tv08_5y`
-- Max 结果：`reports/local_backtests/final_enhanced_ma240_tv08_max`
+- 最近 5 年结果：`results/final_backtests/5y`
+- Max 结果：`results/final_backtests/max`
 - 图表与表格：`reports/final_strategy_assets`
 - 最终报告：`reports/final_report.md`
 - 实验记录：`EXPERIMENTS.md`

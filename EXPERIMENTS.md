@@ -75,8 +75,8 @@ D:\RiceQuantData\backtest_dataset
 
 最终结果目录：
 
-- 最近 5 年：`reports/local_backtests/final_enhanced_ma240_tv08_5y`
-- Max：`reports/local_backtests/final_enhanced_ma240_tv08_max`
+- 最近 5 年：`results/final_backtests/5y`
+- Max：`results/final_backtests/max`
 
 ## 3. 最终主策略结果
 
@@ -134,8 +134,7 @@ Max，`2005-01-31` 至 `2026-06-16`：
 
 证据：
 
-- `reports/local_backtests/structural_turnover_test/quarterly_5y`
-- `reports/local_backtests/structural_turnover_test/quarterly_max`
+- `results/tables/sensitivity_summary.csv`
 
 ### 4.2 卖出缓冲 90 名
 
@@ -151,8 +150,7 @@ Max，`2005-01-31` 至 `2026-06-16`：
 
 证据：
 
-- `reports/local_backtests/structural_turnover_test/sell90_5y`
-- `reports/local_backtests/structural_turnover_test/sell90_max`
+- `results/tables/sensitivity_summary.csv`
 
 ### 4.3 目标波动率
 
